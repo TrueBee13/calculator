@@ -15,14 +15,14 @@ def divide(x, y):
     return x / y
 
 
-'''
+
 def root_of_2(num1):
   epsilon=0.01
   guess=num1/2.0
   while abs(guess*guess-num1)>=epsilone:
     guess=guess-((guess**2)-num1/(2*guess))
     print('Square root of ', num1, 'is', guess)
-'''
+
 
 promt = ('''
 please choose between operators:
